@@ -24,7 +24,9 @@ build/
 
 # Hardhat
 cache/
-artifacts/
+artifacts/**/*
+!artifacts/contracts/**/*.json
+!artifacts/contracts/**/*.dbg.json
 deployments/*
 !deployments/*.json
 typechain/
@@ -41,9 +43,6 @@ typechain-types/
 .nuxt/
 .vuepress/dist
 .serverless/
-
-# Build info
-**/build-info/
 
 # IDE
 .vscode/
