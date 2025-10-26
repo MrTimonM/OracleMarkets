@@ -2,9 +2,7 @@
 node_modules/
 .pnp
 .pnp.js
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+
 
 # Testing
 coverage/
@@ -21,15 +19,9 @@ build/
 .env.production.local
 .env.test.local
 .env.development.local
-!.env.example
 
 # Hardhat
 cache/
-artifacts/**/*
-!artifacts/contracts/**/*.json
-!artifacts/contracts/**/*.dbg.json
-deployments/*
-!deployments/*.json
 typechain/
 typechain-types/
 
