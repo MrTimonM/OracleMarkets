@@ -366,18 +366,6 @@ npm run build
 
 ---
 
-## 📚 Reference Files Used
-
-This project was built using official PushChain documentation:
-
-1. `1_core_concepts_and_architecture.txt` - Universal Accounts, UEA/UOA
-2. `2_sdk_setup_and_initialization.txt` - SDK integration
-3. `3_transactions_and_contract_interaction.txt` - Transaction patterns
-4. `4_advanced_features_and_utilities.txt` - Multicall, utilities
-5. `5_complete_examples_and_best_practices.txt` - Best practices
-6. `push_wallet.txt` - Push Universal Wallet integration
-7. `push_swap.txt` - Token swapping for payouts
-
 ---
 
 ## 🎨 UI/UX Highlights
@@ -423,7 +411,7 @@ MIT License - see LICENSE file
 ## 📞 Support
 
 - **Discord**: [PushChain Community](https://discord.gg/pushchain)
-- **Docs**: https://docs.push.org
+- **Docs**: https://push.org
 - **Twitter**: [@PushChain](https://twitter.com/pushchain)
 
 ---
