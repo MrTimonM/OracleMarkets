@@ -1,0 +1,18 @@
+{
+  "network": "PushChain Donut Testnet",
+  "chainId": 42101,
+  "deployer": "0x4eDcBA3B2439213b20Bf7258bC700CdafcE39B47",
+  "timestamp": "2025-10-26T09:54:19.395Z",
+  "contracts": {
+    "OracleMarkets": "0x7dDD9f95BaD71cf91A688D9ED51a8C6C4Bf360F5",
+    "MarketFactory": "0xcc81704b218C8e35B7806B5823676D5D9B4627a1",
+    "MarketTokenVault": "0xa3ab013CE3a12609eAB19ae6a62447e24B430320",
+    "NFTBadge": "0x728439184C9c3C1A7B73B6Ac1fA92f17BAFd67E1"
+  },
+  "explorer": {
+    "OracleMarkets": "https://donut.push.network/address/0x7dDD9f95BaD71cf91A688D9ED51a8C6C4Bf360F5",
+    "MarketFactory": "https://donut.push.network/address/0xcc81704b218C8e35B7806B5823676D5D9B4627a1",
+    "MarketTokenVault": "https://donut.push.network/address/0xa3ab013CE3a12609eAB19ae6a62447e24B430320",
+    "NFTBadge": "https://donut.push.network/address/0x728439184C9c3C1A7B73B6Ac1fA92f17BAFd67E1"
+  }
+}

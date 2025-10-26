@@ -1,0 +1,32 @@
+{
+  "name": "oracle-markets",
+  "version": "1.0.0",
+  "description": "Universal Cross-Chain Prediction Market powered by PushChain",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install:all": "npm install && cd contracts && npm install && cd ../frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "deploy": "cd contracts && npm run deploy",
+    "test": "cd contracts && npm run test"
+  },
+  "keywords": [
+    "prediction-market",
+    "pushchain",
+    "cross-chain",
+    "gemini",
+    "oracle",
+    "web3"
+  ],
+  "author": "OracleMarkets Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
