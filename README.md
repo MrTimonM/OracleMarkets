@@ -51,11 +51,28 @@ OracleMarkets/
 ### 1. Clone & Install
 
 ```bash
+git clone https://github.com/MrTimonM/OracleMarkets.git
 cd OracleMarkets
 npm run install:all
 ```
 
-### 2. Deploy Contracts to PushChain Donut Testnet
+### 2. Set Up Environment Variables
+
+**Backend**:
+```bash
+cd backend
+cp .env.example .env
+# Edit .env and add your keys
+```
+
+**Frontend**:
+```bash
+cd frontend
+cp .env.example .env
+# Contract addresses will be auto-updated after deployment
+```
+
+### 3. Deploy Contracts to PushChain Donut Testnet
 
 ```bash
 cd contracts
@@ -73,27 +90,7 @@ The deployment script will:
 1. Deploy all 4 contracts (OracleMarkets, MarketFactory, MarketTokenVault, NFTBadge)
 2. Create 5 sample markets
 3. Save addresses to `deployments/pushchain-donut.json`
-
-### 3. Update Configuration
-
-After deployment, update contract addresses:
-
-**Backend** (`backend/.env`):
-```env
-ORACLE_MARKETS_ADDRESS=<deployed_address>
-MARKET_FACTORY_ADDRESS=<deployed_address>
-MARKET_TOKEN_VAULT_ADDRESS=<deployed_address>
-NFT_BADGE_ADDRESS=<deployed_address>
-GEMINI_API_KEY=<your_api_key>
-```
-
-**Frontend** (create `frontend/.env`):
-```env
-VITE_ORACLE_MARKETS_ADDRESS=<deployed_address>
-VITE_MARKET_FACTORY_ADDRESS=<deployed_address>
-VITE_MARKET_TOKEN_VAULT_ADDRESS=<deployed_address>
-VITE_NFT_BADGE_ADDRESS=<deployed_address>
-```
+4. Auto-update `.env` files in backend and frontend
 
 ### 4. Start Backend Oracle Resolver
 
